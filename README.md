@@ -9,10 +9,10 @@ The purpose of this week's project was to run weather analytics for a potential 
 ## Results
 To get the temperature statistics for June and December, we first had to query to retrieve all of the temperatures from our hawaii.sqlite database for those two months. We then converted the temperatures to a list and then created a Dataframe from the list. From there, the easiest way to get basic statistic details was by using Pandas describe method. 
 
-#### Summary Statistics for June
+#### Temperature Statistics for June
 ![June_Temps](/Resources/June_Temps.PNG)
 
-#### Summary Statistics for December
+#### Temperature Statistics for December
 ![December_Temps](/Resources/December_Temps.PNG)
 
 ### Analysis of June and December Temperature Statistics
@@ -22,3 +22,12 @@ Here are three key differences between June and December:
 - The minimum temperature in June (64 degrees) is 8 degrees higher than December (56 degrees)
 
 ## Summary
+After pulling the statistics for the temperatures for June and December, we can see there is not a significant change in temperature between the two months. Although there are less data entries for December in comparison to June, the average temperature of each month is only a few degrees off from each other. Basing it off temperature alone, the weather looks favorable for ice cream and surfing in both months. 
+
+Although the temperature is ideal for shakes and catching waves in June and December, we ran statistics on precipitation. The reason why we wanted to investigate this data as well was because there may be less customers if it's raining or snowing outside.
+
+#### Precipitation Statistics for June
+![June_Prcp](/Resources/June_Prcp.PNG)
+
+#### Precipitation Statistics for December
+![December_Prcp](/Resources/December_Prcp.PNG)
