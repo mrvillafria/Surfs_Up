@@ -26,10 +26,10 @@ After pulling the statistics for the temperatures for June and December, we can 
 
 Although the temperature is ideal for shakes and catching waves in June and December, we ran queries on precipitation. There is a chance there may be less customers if it's raining or snowing outside. As you can see below, the precipitation averages for both months are generally low.
 
+Overall, the differences between the summary statistics for the months of June and December are minimal. Basing it off temperature and precipitation, the weather looks favorable for ice cream and surfing in both months. We would like to look into sales of surfboards and shakes during these months as well for further analysis.
+
 #### Precipitation Statistics for June
 ![June_Prcp](/Resources/June_Prcp.PNG)
 
 #### Precipitation Statistics for December
 ![December_Prcp](/Resources/December_Prcp.PNG)
-
-Overall, the differences between the summary statistics for the months of June and December are minimal. Basing it off temperature and precipitation, the weather looks favorable for ice cream and surfing in both months. We would like to look into sales of surfboards and shakes during these months as well for further analysis. 
