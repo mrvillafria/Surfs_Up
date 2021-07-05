@@ -8,6 +8,12 @@ The purpose of this week's project was to run weather analytics for a potential 
 
 ## Results
 
+#### Summary Statistics for June
+![June_Temps](/Resources/June_Temps.PNG)
+
+#### Summary Statistics for December
+![December_Temps](/Resources/December_Temps.PNG)
+
 There is a bulleted list that addresses the three key differences in weather between June and December. 
 
 ## Summary
