@@ -4,7 +4,7 @@
 For this week's project, we will be using SQLite and SQLAlchemy in addition to Python and Pandas in a Jupyter Notebook. SQLite is a serverless database engine that allows us to quickly setup a database engine without a server. SQLite is stored locally which allows quick testing in comparison to setting up a SQL database server. SQLAlchemy is a Python library that we'll use for querying data and can be used to perform the same query across different SQL dialects. Object Relational Mapper, ORM, is a primary feature of SQL Alchemy. ORM makes it possible to query a database using SQL or Python. 
 
 ### Purpose
-The purpose of this week's project was to run weather analytics for a potential business opportunity called Surf 'n Shake. The idea of Surf 'n Shake is to serve surfboards and ice cream to locals and tourists in Oahu. In order to build a strong business plan for our investors, one of the main concerns we wanted to look into was how temperature could affect the business. We pulled temperature statistics for the months of June and December so we can analyze weather trends. By looking at a summer month and a winter month, this weather data will help determine if Surf 'n Shake is sustainable year-round.
+The purpose of this week's project was to run weather analytics for a potential business opportunity called Surf 'n Shake. The idea of Surf 'n Shake is to serve surfboards and ice cream to locals and tourists in Oahu. In order to build a strong business plan for our investors, one of the main concerns we wanted to look into was how temperature could affect the business. We pulled temperature statistics for the months of June and December so we could analyze weather trends. By looking at a summer month and a winter month, this weather data will help determine if Surf 'n Shake is sustainable year-round.
 
 ## Results
 To get the temperature statistics for June and December, we first had to query to retrieve all of the temperatures from our hawaii.sqlite database for those two months. We then converted the temperatures to a list and then created a Dataframe from the list. From there, the easiest way to get basic statistic details was by using Pandas describe method. 
@@ -24,7 +24,7 @@ Here are three key differences between June and December:
 ## Summary
 After pulling the statistics for the temperatures for June and December, we can see there is not a significant change in temperature between the two months. Although there are less data entries for December in comparison to June, the average temperature of each month is only a few degrees off from each other.
 
-Although the temperature is ideal for shakes and catching waves in June and December, we ran queries on precipitation. There is a chance there may be less customers if it's raining or snowing outside. As you can see below, the precipitation averages for both months are generally low.
+While the temperature is ideal for shakes and catching waves in June and December, we also ran queries on precipitation. There is a chance there may be less customers if it's raining or snowing outside which would not be ideal for business. As you can see below, the precipitation averages for both months are generally low.
 
 Overall, the differences between the summary statistics for the months of June and December are minimal. Basing it off temperature and precipitation, the weather looks favorable for ice cream and surfing in both months. We would like to look into sales of surfboards and shakes during these months as well for further analysis.
 
